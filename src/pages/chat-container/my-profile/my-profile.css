@@ -1,0 +1,20 @@
+.my-profile {
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.my-profile-info {
+  margin-left: 10px;
+}
+.my-profile-name {
+  font-weight: 500;
+  color: #333;
+}
+.my-profile-position {
+  color: #333;
+  opacity: 0.8;
+}

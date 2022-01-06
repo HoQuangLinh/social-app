@@ -7,17 +7,11 @@ import { BrowserRouter as Router } from "react-router-dom";
 import RouterLayout from "./routers/RouterLayout";
 const App = () => {
   useEffect(() => {
+    const userId = "61cea2e907d306c8c9e040ba";
     let socket = io("http://localhost:5000");
-    socket.on("hello", ({ name }) => {
-      console.log(name);
-    });
+    socket.emit("active", userId);
   }, []);
-  return (
-    <Router>
-      <SideBar />
-      <RouterLayout />
-    </Router>
-  );
+  return <Layout />;
 };
 
 export default App;

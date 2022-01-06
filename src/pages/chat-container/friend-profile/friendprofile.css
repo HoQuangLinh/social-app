@@ -1,0 +1,22 @@
+.friend-profile-header {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.friend-profile-header > h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+.friend-profile-header > p {
+  font-size: 15px;
+}
+.friend-profile-list {
+  margin-left: 10px;
+}
+.friend-profile-list li {
+  padding: 10px;
+  font-weight: bold;
+}

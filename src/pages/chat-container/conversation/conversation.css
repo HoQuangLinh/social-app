@@ -1,0 +1,21 @@
+.conversation-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
+}
+.conversation-item.active {
+  background-color: #e5efff;
+}
+.conversation-content {
+  margin-left: 10px;
+}
+.conversation-body {
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

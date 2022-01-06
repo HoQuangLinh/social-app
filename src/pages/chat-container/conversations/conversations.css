@@ -1,0 +1,15 @@
+.conversations-list {
+  max-height: 370px;
+  overflow-y: auto;
+  overflow-x: none;
+
+  position: relative;
+}
+.conversations-list::-webkit-scrollbar {
+  width: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-color: #e5efff;
+}
